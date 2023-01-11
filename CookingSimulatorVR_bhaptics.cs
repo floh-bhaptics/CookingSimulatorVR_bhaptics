@@ -17,9 +17,8 @@ namespace CookingSimulatorVR_bhaptics
     {
         public static TactsuitVR tactsuitVr;
 
-        public override void OnApplicationStart()
+        public override void OnInitializeMelon()
         {
-            base.OnApplicationStart();
             tactsuitVr = new TactsuitVR();
             tactsuitVr.PlaybackHaptics("HeartBeat");
         }
