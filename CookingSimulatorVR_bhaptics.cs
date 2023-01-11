@@ -8,7 +8,7 @@ using MelonLoader;
 using HarmonyLib;
 using MyBhapticsTactsuit;
 
-[assembly: MelonInfo(typeof(CookingSimulatorVR_bhaptics.CookingSimulatorVR_bhaptics), "CookingSimulatorVR_bhaptics", "1.1.0", "Florian Fahrenberger")]
+[assembly: MelonInfo(typeof(CookingSimulatorVR_bhaptics.CookingSimulatorVR_bhaptics), "CookingSimulatorVR_bhaptics", "2.0.0", "Florian Fahrenberger")]
 [assembly: MelonGame("Game Boom VR", "CookingSimulatorVR")]
 
 namespace CookingSimulatorVR_bhaptics
